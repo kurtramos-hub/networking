@@ -13,7 +13,7 @@ def index():
     if request.method == "POST":
         router_device = {
             'device_type': 'cisco_ios_telnet',
-            'ip': '192.168.10.239',
+            'ip': '192.168.10.90',
             'port': 32770,
             'username': 'admin',
             'password': 'eve123',
